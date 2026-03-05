@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    if: github.repository != 'mna11/contribution-city'
+    if: github.repository != 'contribution-city'
     runs-on: ubuntu-latest
 
     steps:
